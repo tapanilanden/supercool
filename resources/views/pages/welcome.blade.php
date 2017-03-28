@@ -17,9 +17,17 @@
     
     <body>
         <div class="container">
-            <div class="content">
-                <div class="title">Laravel 5</div>
-            </div>
+            <div class="row">
+            
+                <div class="col-md-6">
+                    <h1>Vasen</h1>
+                </div>
+                
+                <div class="col-md-6">
+                    <h1>Oikea</h1>
+                
+                </div>
+            </div>    
         </div>
     </body>
     
