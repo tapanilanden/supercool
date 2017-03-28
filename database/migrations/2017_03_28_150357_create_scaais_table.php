@@ -12,7 +12,14 @@ class CreateScaaisTable extends Migration
      */
     public function up()
     {
-        //
+        Schema::create('scaais', function (Blueprint $table) {
+            $table->increments('id');
+            $table->int('user_id');
+            $table->string('title');
+            $table->text('body');
+            $table->int('stars');
+            $table->timestamps();
+        });
     }
 
     /**
@@ -22,6 +29,6 @@ class CreateScaaisTable extends Migration
      */
     public function down()
     {
-        //
+        Schema::drop('scaais');
     }
 }
