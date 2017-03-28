@@ -1,12 +1,12 @@
 @extends('main')
 
-@section('pageheader', '<h1 class="right"><small>Share Your </small>VISION</h1>')
+@section('pageheader', '<h1 class="text-right"><small>Share Your </small>VISION</h1>')
 
 @section('content')
 
 <div class ="row">
     <div class="col-md-8 col-md-offset-2">
-        {!! Form::open() !!}
+        {!! Form::open(['route' => 'scaai.store']) !!}
         
             <!-- TITLE -->
             {{ Form::label('title', 'Title: ') }}
