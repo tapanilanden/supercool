@@ -14,10 +14,10 @@ class CreateScaaisTable extends Migration
     {
         Schema::create('scaais', function (Blueprint $table) {
             $table->increments('id');
-            $table->int('user_id');
+            $table->integer('user_id');
             $table->string('title');
             $table->text('body');
-            $table->int('stars');
+            $table->integer('stars');
             $table->timestamps();
         });
     }
