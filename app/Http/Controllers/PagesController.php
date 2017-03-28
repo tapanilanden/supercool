@@ -9,6 +9,6 @@ use App\Http\Requests;
 class PagesController extends Controller
 {
     public function getIndex() {
-        return view(pages.welcome);
+        return view('pages.welcome');
     }
 }
