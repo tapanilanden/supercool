@@ -8,13 +8,29 @@
     
     <!-- ROW -->
     <div class="row">
-    <!-- Starred ideas from INNOVATION WIZARDS -->
+    <!-- WELCOME -->
+
+            <div class="col-md-6">
+    
+            <h1>WELCOME TO SCAAPFSCAAI!</h1>
+            <p class="text-justify">
+            This is a platform for <em>innovative</em> and <em>awesome</em> people with <em>mind-bogling</em>
+            ideas to share their visions with other <em>super cool</em> human beings!
+            </p>
+            
+    
+            
+        </div>
+
 
     
+    <!-- END OF WELCOME -->
 
+
+    <!-- TRENDING IDEAS -->    
         <div class="col-md-6">
     
-            <h1>Trending SCAAI's</h1>
+            <h1>Trending SCAAIs</h1>
             <p>
             <div class="post">
                 <h3>SCAAI</h3>
@@ -28,27 +44,8 @@
     
             <hr>
         </div>
-    
-    <!-- END OF STARRED IDEAS -->
-
-
-    <!-- RECENT IDEAS -->    
-        <div class="col-md-6">
-    
-            <h1>Recent SCAAI's</h1>
-            <p>
-            <div class="post">
-                <h3>SCAAI</h3>
-                <p><i>category:</i> <a href="#"><b>innovations</b></a></p>
-                <p><i>from:</i> <a href="#"><b>Spede</b></a></p>
-                <p><i>stars:</i> <b>100</b></p>
-                <p> It would be awesome if somebody set me on fire with super some cool stuff aw yiss.</p>
-                <a href="#" class="btn btn-primary">Read more</a>
-            </div>
-    
-        <hr>
         
-        <!-- END OF RECENT IDEAS -->
+        <!-- END OF TRENDING IDEAS -->
     
     
     </div>

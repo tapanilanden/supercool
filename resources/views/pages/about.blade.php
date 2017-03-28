@@ -28,7 +28,7 @@
             @endif
             -->
             <a href="#" class="btn btn-primary btn-block">Login</a>
-            <p class="center"><em>or</em></p>
+            <p class="text-center"><b>or</b></p>
             <a href="#" class="btn btn-primary btn-block">Register</a>
        </div>
     </div>
