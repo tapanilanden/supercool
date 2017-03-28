@@ -12,16 +12,22 @@
             and start sharing your SCAAI's!
             </p>
             
-            <!-- @if (Auth::check())
+            
+            
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+    <!-- @if (Auth::check())
             
             @else
             
             @endif
             -->
-            <a href="#" class="btn btn-primary btn-lg">Login</a>
-            <p><em>or</em></p>
-            <a href="#" class="btn btn-primary btn-lg">Register</a><
-            
-        </div>
+            <a href="#" class="btn btn-primary btn-block">Login</a>
+            <p class="justify"><em>or</em></p>
+            <a href="#" class="btn btn-primary btn-block">Register</a>
+       </div>
     </div>
 @endsection
