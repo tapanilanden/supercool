@@ -11,4 +11,4 @@
 |
 */
 
-Route::get('/', ['as' => 'pages.welcome', 'use' => 'PagesController@getIndex']);
+Route::get('/', ['as' => 'pages.welcome', 'uses' => 'PagesController@getIndex']);
