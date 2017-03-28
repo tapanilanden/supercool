@@ -14,12 +14,12 @@
                 <div class="jumbotron">
                     <h1>WELCOME TO SCAAPFSCAAI!</h1>
                     <p class="text-justify">
-                    This is a platform for <em>innovative</em> and <em>awesome</em> people with <em>mind-bogling</em>
+                    This is a platform for <em>innovative</em> and <em>awesome</em> people with <em>mind-boggling</em>
                     ideas to share their visions with other <em>super cool</em> human beings!
                     </p>
                     <p>Start sharing your SCAAIs by</p>
-                    <a href="#" class="btn btn-primary">Logging in</a><p>or</p>
-                    <a href="#" class="btn btn-primary">Create New Account</a>
+                    <a href="#" class="btn btn-primary btn-center">Logging in</a><p class="text-center">or</p>
+                    <a href="#" class="btn btn-primary btn-center">Create New Account</a>
                 </div>
             
     

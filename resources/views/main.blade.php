@@ -23,7 +23,7 @@
     
     
     <!-- FOOTER -->
-    
+    @include('footer')
     <!--FOOTER LOPPUU -->
     
     <!-- SKRIPTIT -->
@@ -31,6 +31,7 @@
     @include('partials._scripts')
     
     <!-- SKRIPTIT LOPPUU -->
+    
     </body>
     
     
