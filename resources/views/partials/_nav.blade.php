@@ -1,4 +1,3 @@
-@extends('main')
 <!-- NAVI -->
     
     <nav class="navbar navbar-default">
