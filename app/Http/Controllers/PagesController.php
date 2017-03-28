@@ -11,4 +11,12 @@ class PagesController extends Controller
     public function getIndex() {
         return view('pages.welcome');
     }
+    
+    public function getAbout() {
+        return view('pages.about');
+    }
+    
+    public function getIdeas() {
+        return view('pages.ideas');
+    }
 }
