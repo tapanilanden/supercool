@@ -13,7 +13,7 @@
         <!-- SISÄLTÖ --> 
         <div class="container">
         
-            @include('pageheader')
+            @include('partials._pageheader')
             
             @yield('content')
                 
