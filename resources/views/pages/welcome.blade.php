@@ -14,7 +14,7 @@
 
     <!-- END OF JUMBOTRON -->
     
-    
+    <!-- ROW -->
     <div class="row">
     <!-- Starred ideas from INNOVATION WIZARDS -->
 
@@ -57,7 +57,8 @@
         <!-- END OF RECENT IDEAS -->
     
     
-        </div>
     </div>
+    <!--End of Row -->
+
 @endsection
 
