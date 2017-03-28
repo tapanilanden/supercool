@@ -23,6 +23,12 @@
     <!-- FOOTER -->
     
     <!--FOOTER LOPPUU -->
+    
+    <!-- SKRIPTIT -->
+    
+    @yield('scripts')
+    
+    <!-- SKRIPTIT LOPPUU -->
     </body>
     
     
