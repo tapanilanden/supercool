@@ -76,12 +76,27 @@
             <div class="row">
             
                 <div class="col-md-6">
-                    <h1>Vasen</h1>
+                    <h1>What is SCAAPFSCAAI?</h1>
+                    <p>
+                    SCAAPFSCAAI is a platform where You can share your awesome ideas with our
+                    other super cool and awesome users! You can also give and gain feedback 
+                    to/from other people with our super awesome and cool rating system! So register yourself 
+                    and start sharing your SCAAI's!
+                    </p>
                 </div>
                 
                 <div class="col-md-6">
-                    <h1>Oikea</h1>
+                    <h1>Recent SCAAI's</h1>
+                    <p>
+                    <div class="post">
+                    <h3>SCAAI</h3>
+                    <p> It would be awesome if somebody set me on fire with super some cool stuff aw yiss.</p>
+                    <a href="{{ url('blog/'.$post->slug) }}" class="btn btn-primary">Read more</a>
+                </div>
                 
+                <hr>
+                    
+                    </p>
                 </div>
             </div>
                 
