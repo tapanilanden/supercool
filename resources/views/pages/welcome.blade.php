@@ -2,17 +2,17 @@
 
 @section('content')
 
-    <!-- JUMBOTRON NAME -->
+    <!-- PAGE HEADER -->
     <div class="row">
         <div class="col-md-12">
-            <div class="jumbotron">
-                <h1 class="text-right">SUPER COOL AND AWESOME <em>PLATFORM</em> <em>FOR</em> SUPER COOL AND AWESOME <em>IDEAS</em></h1>
+            <div class="page-header">
+                <h1 class="text-right"><small>SUPER COOL AND AWESOME </small>PLATFORM FOR<small> SUPER COOL AND AWESOME </small>IDEAS</h1>
             </div>
         </div>
     
     </div>
 
-    <!-- END OF JUMBOTRON -->
+    <!-- END OF PAGE HEADER -->
     
     <!-- ROW -->
     <div class="row">
