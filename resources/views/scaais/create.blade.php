@@ -6,7 +6,7 @@
 
 <div class ="row">
     <div class="col-md-8 col-md-offset-2">
-        {!! Form::open(['route' => 'scaai.store']) !!}
+        {!! Form::open(['route' => 'scaais.store']) !!}
         
             <!-- TITLE -->
             {{ Form::label('title', 'Title: ') }}
