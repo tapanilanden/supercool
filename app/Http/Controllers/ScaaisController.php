@@ -41,7 +41,7 @@ class ScaaisController extends Controller
         
         $this->validate($request, array(
             'title' =>'required|max:255',
-            'user_id' => 'required|integer',
+            'user_id' => 'required|integer|max:1000000',
             'body'  => 'required' 
             )); 
         
@@ -102,7 +102,7 @@ class ScaaisController extends Controller
         
             $this->validate($request, array(
                 'title' =>'required|max:256',
-                'user_id' => 'required|integer',
+                'user_id' => 'required|integer|max:1000000',
                 'body'  => 'required'
             )); 
         
