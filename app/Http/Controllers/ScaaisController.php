@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use App\Http\Requests;
 
 use App\Scaai;
+use Session;
 
 class ScaaisController extends Controller
 {
