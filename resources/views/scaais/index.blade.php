@@ -11,7 +11,7 @@
         </div>
         
         <div class="col-md-2">
-            <a href="{{ route('scaais.create') }}" class="btn btn-lg btn-block btn-primary btn-h1-spacing">Innovate New SCAAI</a>
+            <a href="{{ route('scaais.create') }}" class="btn btn-lg btn-block btn-primary btn-h1-spacing">New SCAAI</a>
         </div>
         <hr>
     </div>
