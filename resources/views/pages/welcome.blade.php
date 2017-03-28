@@ -6,7 +6,7 @@
     <div class="row">
         <div class="col-md-12">
             <div class="jumbotron">
-                <h1 class="text-right">SUPER COOL AND AWESOME PLATFORM FOR SUPER COOL AND AWESOME IDEAS</h1>
+                <h1 class="text-right">SUPER COOL AND AWESOME <em>PLATFORM</em> <em>FOR</em> SUPER COOL AND AWESOME <em>IDEAS</em></h1>
             </div>
         </div>
     
