@@ -10,7 +10,7 @@
     <div class="row">
     <!-- WELCOME -->
 
-            <div class="col-md-6">
+            <div class="col-md-8">
                 <div class="jumbotron">
                     <h1>WELCOME TO SCAAPFSCAAI!</h1>
                     <p class="text-justify">
@@ -29,7 +29,7 @@
 
 
     <!-- TRENDING IDEAS -->    
-        <div class="col-md-6">
+        <div class="col-md-3 col-md-offset-1">
     
             <h1>Trending SCAAIs</h1>
             <p>
