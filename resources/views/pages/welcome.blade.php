@@ -91,7 +91,7 @@
                     <div class="post">
                     <h3>SCAAI</h3>
                     <p> It would be awesome if somebody set me on fire with super some cool stuff aw yiss.</p>
-                    <a href="{{ url('blog/'.$post->slug) }}" class="btn btn-primary">Read more</a>
+                    <a href="#" class="btn btn-primary">Read more</a>
                 </div>
                 
                 <hr>
