@@ -35,7 +35,7 @@
                             array('class' => 'btn btn-primary btn-block')) !!}                        
                     </div>
                     <div class="col-sm-6">
-                        {!! Form::open(['route' => ['scaais.destroy', $post->id], 'method' => 'delete']) !!}  
+                        {!! Form::open(['route' => ['scaais.destroy', $scaai->id], 'method' => 'delete']) !!}  
                         
                         {!! Form::submit('Delete', ['class' => 'btn btn-danger btn-block']) !!}
                         
