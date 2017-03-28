@@ -17,7 +17,7 @@ class CreateScaaisTable extends Migration
             $table->integer('user_id');
             $table->string('title');
             $table->text('body');
-            $table->integer('stars');
+            $table->integer('stars')->nullable();
             $table->timestamps();
         });
     }
