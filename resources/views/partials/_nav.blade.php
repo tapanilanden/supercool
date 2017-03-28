@@ -17,7 +17,8 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
             <li class="active"><a href="{{ route('pages.welcome') }}">Home </a></li>
-            <li class="active"><a href="{{ route('pages.ideas') }}">Ideas</a></li>
+            <li class="active"><a href="{{ route('pages.ideas') }}">SCAAIs</a></li>
+            <li class="active"><a href="{{ route('pages.users') }}">Users</a></li>
             <li class="active"><a href="{{ route('pages.about') }}">WTF is SCAAPFSCAAI?</a></li> 
           </ul>
             

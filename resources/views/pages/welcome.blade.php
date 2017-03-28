@@ -1,18 +1,10 @@
 @extends('main')
 
+@section('pageheader', '<h1><small>SUPER COOL AND AWESOME</small>PLATFORM FOR <small>SUPER COOL AND AWESOME </small>IDEAS</h1>')
+
 @section('content')
 
-    <!-- PAGE HEADER -->
-    <div class="row">
-        <div class="col-md-12">
-            <div class="page-header">
-                <h1 class="text-right"><small>SUPER COOL AND AWESOME </small>PLATFORM FOR<small> SUPER COOL AND AWESOME </small>IDEAS</h1>
-            </div>
-        </div>
-    
-    </div>
 
-    <!-- END OF PAGE HEADER -->
     
     <!-- ROW -->
     <div class="row">

@@ -11,7 +11,10 @@
 |
 */
 
+
+Route::get('users', ['as' => 'pages.users', 'uses' => 'PagesController@getUsers'])
 Route::get('ideas', ['as' => 'pages.ideas', 'uses' => 'PagesController@getIdeas']);
 Route::get('about', ['as' => 'pages.about', 'uses' => 'PagesController@getAbout']);
 Route::get('/', ['as' => 'pages.welcome', 'uses' => 'PagesController@getIndex']);
+
 

@@ -1,10 +1,12 @@
 @extends('main')
 
+@section('pageheader', '<h1><small>WTF is </small>SCAAPFSCAAI?</h1>')
+
 @section('content') 
             
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
-            <h1>What is SCAAPFSCAAI?</h1>
+            <h1>What is </h1>
             <p>
             SCAAPFSCAAI is a platform where You can share your awesome ideas with our
             other super cool and awesome users! You can also give and gain feedback 
@@ -26,7 +28,7 @@
             @endif
             -->
             <a href="#" class="btn btn-primary btn-block">Login</a>
-            <p class="justify"><em>or</em></p>
+            <p class="center"><em>or</em></p>
             <a href="#" class="btn btn-primary btn-block">Register</a>
        </div>
     </div>
