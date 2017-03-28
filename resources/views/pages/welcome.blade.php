@@ -31,7 +31,7 @@
             <p> It would be awesome if somebody set me on fire with super some cool stuff aw yiss.</p>
             <a href="#" class="btn btn-primary">Read more</a>
         
-        </div>
+        
     
         <hr>
     
