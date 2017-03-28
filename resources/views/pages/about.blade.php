@@ -18,9 +18,9 @@
             
             @endif
             -->
-            <a href="#" class="btn btn-primary btn-lg">Login</a><!--{{ route('login') }}-->
+            <a href="#" class="btn btn-primary btn-lg">Login</a>
             <p><em>or</em></p>
-            <a href="#" class="btn btn-primary btn-lg">Register</a><!--{{ route('register') }}-->
+            <a href="#" class="btn btn-primary btn-lg">Register</a><
             
         </div>
     </div>
