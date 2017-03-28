@@ -26,7 +26,7 @@
     
     <!-- SKRIPTIT -->
     
-    @yield('scripts')
+    @include('partials.scripts')
     
     <!-- SKRIPTIT LOPPUU -->
     </body>
