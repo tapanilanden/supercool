@@ -8,7 +8,7 @@
     
     <body>
     
-       @include('partials.nav') 
+       @include('partials._nav') 
         
         <!-- SISÄLTÖ --> 
         <div class="container">
