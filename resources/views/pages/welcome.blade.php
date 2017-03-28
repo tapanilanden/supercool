@@ -18,7 +18,6 @@
     <body>
     
     
-    
     <!-- NAVI -->
     
     <nav class="navbar navbar-default">
@@ -42,6 +41,7 @@
           </ul>
             
         -->
+          <ul class="nav navbar-nav navbar-right">
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
               <ul class="dropdown-menu">
@@ -60,8 +60,19 @@
     <!-- NAVI LOPPUU -->
     
     
-    <!-- SISÄLTÖ -->
+    
+    <!-- SISÄLTÖ --> 
         <div class="container">
+            
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="jumbotron">
+                        <h1>SUPER COOL AND AWESOME PLATFORM FOR SUPER COOL AND AWESOME IDEAS</h1>
+                    </div>
+                </div>
+                
+            </div>
+        
             <div class="row">
             
                 <div class="col-md-6">
@@ -72,7 +83,8 @@
                     <h1>Oikea</h1>
                 
                 </div>
-            </div>    
+            </div>
+                
         </div>
         
         
