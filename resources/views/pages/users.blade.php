@@ -1,6 +1,6 @@
 @extends('main')
 
-@section('pageheader', '<h1><small>SUPER COOL AND AWESOME </small>USERS</h1>')
+@section('pageheader', '<h1 class="text-right"><small>SUPER COOL AND AWESOME </small>USERS</h1>')
 
 @section('content')
 
