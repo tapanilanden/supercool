@@ -86,12 +86,15 @@
                 </div>
                 
                 <div class="col-md-6">
+                
                     <h1>Recent SCAAI's</h1>
                     <p>
                     <div class="post">
                     <h3>SCAAI</h3>
+                    <i>category:</i> <b>innovations</b>
                     <p> It would be awesome if somebody set me on fire with super some cool stuff aw yiss.</p>
                     <a href="#" class="btn btn-primary">Read more</a>
+                    
                 </div>
                 
                 <hr>
