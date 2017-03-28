@@ -11,6 +11,17 @@
             to/from other people with our super awesome and cool rating system! So register yourself 
             and start sharing your SCAAI's!
             </p>
+            
+            <!-- @if (Auth::check())
+            
+            @else
+            
+            @endif
+            -->
+            <a href="{{ route('login') }}" class="btn btn-primary btn-lg">Login</a>
+            <p><em>or</em></p>
+            <a href="{{ route('register') }}" class="btn btn-primary btn-lg">Register</a>
+            
         </div>
     </div>
 @endsection
