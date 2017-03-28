@@ -11,12 +11,13 @@
     <!-- WELCOME -->
 
             <div class="col-md-6">
-    
-            <h1>WELCOME TO SCAAPFSCAAI!</h1>
-            <p class="text-justify">
-            This is a platform for <em>innovative</em> and <em>awesome</em> people with <em>mind-bogling</em>
-            ideas to share their visions with other <em>super cool</em> human beings!
-            </p>
+                <div class="jumbotron">
+                    <h1>WELCOME TO SCAAPFSCAAI!</h1>
+                    <p class="text-justify">
+                    This is a platform for <em>innovative</em> and <em>awesome</em> people with <em>mind-bogling</em>
+                    ideas to share their visions with other <em>super cool</em> human beings!
+                    </p>
+                </div>
             
     
             
