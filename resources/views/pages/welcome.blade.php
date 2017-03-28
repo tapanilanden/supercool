@@ -18,8 +18,8 @@
                     ideas to share their visions with other <em>super cool</em> human beings!
                     </p>
                     <p>Start sharing your SCAAIs by</p>
-                    <a href="#" class="btn btn-primary btn-center">Logging in</a><p class="text-center">or</p>
-                    <a href="#" class="btn btn-primary btn-center">Create New Account</a>
+                    <a href="#" class="btn btn-primary btn-block">Logging in</a><p class="text-center">or</p>
+                    <a href="#" class="btn btn-primary btn-block">Create New Account</a>
                 </div>
             
     

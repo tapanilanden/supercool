@@ -1,2 +1,2 @@
 <hr>
-<p>Copyright TL</p>
+<p class="text-center">Copyright - Tapani Landén</p>
