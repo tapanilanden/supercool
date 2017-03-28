@@ -3,7 +3,7 @@
 @section('content') 
             
     <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-8 col-md-offset-2">
             <h1>What is SCAAPFSCAAI?</h1>
             <p>
             SCAAPFSCAAI is a platform where You can share your awesome ideas with our
