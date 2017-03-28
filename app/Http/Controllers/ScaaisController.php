@@ -104,7 +104,7 @@ class ScaaisController extends Controller
                 'user_id' => 'required|integer',
                 'body'  => 'required'
             )); 
-        }
+        
         
         //save
         $scaai = Scaai::find($id);
