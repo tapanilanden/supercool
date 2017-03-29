@@ -21,7 +21,7 @@ Route::get('auth/register', ['as'=>'register', 'uses' => 'Auth\AuthController@ge
 Route::post('auth/register', 'Auth\AuthController@postRegister');
 
 Route::get('scaais_collection/index', ['as' => 'collection.index', 'uses' => 'ScaaiCollectionController@getIndex']);
-Route::get('scaais_collection/show/{id?}', ['as' => 'collection.show', 'uses' => 'ScaaiCollectionController@getShow'], function($id));
+Route::get('scaais_collection/show/{id?}', ['as' => 'collection.show', 'uses' => 'ScaaiCollectionController@getShow'])id->('id');
 
 Route::get('users', ['as' => 'pages.users', 'uses' => 'PagesController@getUsers']);
 Route::get('ideas', ['as' => 'pages.ideas', 'uses' => 'PagesController@getIdeas']);
