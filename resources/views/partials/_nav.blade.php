@@ -16,9 +16,9 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="{{ route('pages.welcome') }}">Home </a></li>
-            <li class="active"><a href="{{ route('collection.index') }}">SCAAIs</a></li>
-            <li class="active"><a href="{{ route('pages.about') }}">WTF is SCAAPFSCAAI?</a></li> 
+            <li {{ Request::url() === route('pages.welcome')? "class="active" : "" }}><a href="{{ route('pages.welcome') }}">Home </a></li>
+            <li {{ Request::url() === route('collection.index')? "class="active" : "" }}><a href="{{ route('collection.index') }}">SCAAIs</a></li>
+            <li {{ Request::url() === route('pages.about')? "class="active" : "" }}><a href="{{ route('pages.about') }}">WTF is SCAAPFSCAAI?</a></li> 
           </ul>
             
         <!-- LOGIN / KÄYTTÄJÄN TIEDOT -->

@@ -22,7 +22,6 @@
                     
                     <a href="{{ route('scaais.create') }}" class="btn btn-primary btn-block">Create New SCAAI</a>
                     
-                    <a href="#" class="btn btn-primary btn-block">Check Your Profile</a>
                 
                 @else
                 <!-- EI AUTENKTIKOITU -->
@@ -47,7 +46,7 @@
     <!-- END OF WELCOME -->
 
 
-    <!-- TRENDING IDEAS -->    
+    <!-- NEWEST SCAAI -->    
         <div class="col-md-3 col-md-offset-1">
     
             <h1>Newest SCAAI</h1>
@@ -65,7 +64,7 @@
             <hr>
         </div>
         
-        <!-- END OF TRENDING IDEAS -->
+        <!-- END OF NEWEST SCAAI -->
     
     
     </div>
