@@ -15,7 +15,7 @@
                 {{ Form::checkbox('remember') }} {{ Form::label('remember', 'Remember Me')  }}
             
                 <br>
-                {{ Form::submit('Login', ['class', 'btn btn-primary btn-block form-spacing-top']) }}
+                {{ Form::submit('Login', ['class', 'btn btn-primary btn-block']) }}
             
             {!! Form::close() !!}
         </div>
