@@ -25,21 +25,19 @@
                     <th>#</th>
                     <th>Title</th>
                     <th>Body</th>
-                    <th>Created At</th>
-                    <th></th>
+                    
                 </thead>
                 
                 <tbody>
                 
                     @foreach ($scaais as $scaai)
+                        <a href="{{ route('scaais.show', $scaai->id) }}" class="btn btn-default btn-sm">
                         <tr>
                             <th> {{ $scaai->id }} </th>
                             <td> {{ $scaai->title }} </td>
                             <td> {{ substr($scaai->body, 0, 50) }}{{ strlen($scaai->body) > 50 ? "..." : "" }} </td>
-                            <td> {{ date('j.m.Y H:i', strtotime($scaai->created_at)) }} </td>
-                            <td> <a href="{{ route('scaais.show', $scaai->id) }}" class="btn btn-default btn-sm">View</a> 
-                                <a href="{{ route('scaais.edit', $scaai->id) }}" class="btn btn-default btn-sm">Edit</a></td>
-                        </tr>     
+                            
+                        </tr> </a>    
                     @endforeach
                 </tbody>  
             </table>
