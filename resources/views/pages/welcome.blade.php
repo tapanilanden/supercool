@@ -50,15 +50,15 @@
     <!-- TRENDING IDEAS -->    
         <div class="col-md-3 col-md-offset-1">
     
-            <h1>Trending SCAAIs</h1>
+            <h1>Newest SCAAI</h1>
             <p>
             <div class="post">
-                <h3>SCAAI</h3>
-                <p><i>category:</i> <a href="#"><b>innovations</b></a></p>
-                <p><i>from:</i> <a href="#"><b>Spede</b></a></p>
-                <p><i>stars:</i> <b>100</b></p>
-                <p> It would be awesome if somebody set me on fire with super some cool stuff aw yiss.</p>
-                <a href="#" class="btn btn-primary">Read more</a>
+                <h3>{{ $scaai->title }}</h3>
+                
+                <p><i>from:</i> <b>{{ $user->name }}</b></p>
+                
+                <p> {{ substr($scaai->body, 0, 100) }}{{ strlen($scaai->body) > 100 ? "..." : "" }} </p>
+                <a href="{{ route('collection.show', $scaai->id) }}" class="btn btn-primary">Read more</a>
             </div>
             
     
