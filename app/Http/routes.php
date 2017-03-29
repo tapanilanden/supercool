@@ -12,6 +12,14 @@
 */
 
 
+ // Auth routes
+Route::get('auth/login', ['as'=>'login', 'uses' => 'Auth\AuthController@getLogin']);
+Route::post('auth/login', 'Auth\AuthController@postLogin');
+Route::get('auth/logout', ['as' => 'logout', 'uses' => 'Auth\AuthController@getLogout']);
+//Registration routes
+Route::get('auth/register', 'Auth\AuthController@getRegister');
+Route::post('auth/register', 'Auth\AuthController@postRegister');
+
 Route::get('users', ['as' => 'pages.users', 'uses' => 'PagesController@getUsers']);
 Route::get('ideas', ['as' => 'pages.ideas', 'uses' => 'PagesController@getIdeas']);
 Route::get('about', ['as' => 'pages.about', 'uses' => 'PagesController@getAbout']);
@@ -20,6 +28,3 @@ Route::resource('scaais', 'ScaaisController');
 
 
 
-Route::auth();
-
-Route::get('/home', 'HomeController@index');
