@@ -9,6 +9,7 @@ use App\Http\Requests;
 use App\Scaai;
 use Session;
 use Illuminate\Support\Facades\Auth;
+use User;
 
 class ScaaisController extends Controller
 {
@@ -79,7 +80,8 @@ class ScaaisController extends Controller
     public function show($id)
     {
         $scaai = Scaai::find($id);
-        return view('scaais.show')->withScaai($scaai);
+        $user = User::find($scaai->id);
+        return view('scaais.show')->withScaai($scaai)->withUser($scaai);
     }
 
     /**
