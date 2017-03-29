@@ -1,4 +1,6 @@
-  
+@extends('main')
+@section('pageheader', '<h1 class="text-right"><small>SUPER COOL AND AWESOME </small>IDEAS</h1>')
+@section('content')
     @foreach ($scaais as $scaai)
     <div class="row well-sm">
         <div class="col-md-8 col-md-offset-2">                
@@ -19,4 +21,6 @@
             <a href="{{ route('scaais.create') }}" class="btn btn-lg btn-block btn-primary btn-h1-spacing">New SCAAI</a>
         </div>
     </div>
+    
+@endsection
     
