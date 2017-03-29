@@ -38,7 +38,7 @@
               </ul>
             </li>
             @else
-                <a href="{{ route('login') }}" class="btn btn-primary">Login</a>
+                <a href="{{ route('login') }}" class="btn btn-default">Login</a>
             @endif
           </ul>
         </div><!-- /.navbar-collapse -->
