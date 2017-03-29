@@ -18,7 +18,13 @@
     </div>
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
+        
+            <!-- If logged in -->
+            @if(Auth::check())
             <a href="{{ route('scaais.create') }}" class="btn btn-lg btn-block btn-primary btn-h1-spacing">New SCAAI</a>
+            @else
+            <a href="{{ route('login') }}" class="btn btn-lg btn-block btn-success btn-h1-spacing">Login</a>
+            @endif
         </div>
     </div>
     
