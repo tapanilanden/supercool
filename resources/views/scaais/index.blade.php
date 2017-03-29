@@ -1,16 +1,15 @@
 @extends('main')
 
+@section('pageheader', '<h1 class="text-right"><small>Your </small>SCAAIs</h1>')
+
 @section('content')
+
 
     <div class="row">
         
-        <div class="col-md-10">
         
-            <h1>All SCAAIs</h1>
         
-        </div>
-        
-        <div class="col-md-2">
+        <div class="col-md-8 col-md-offset-2">
             <a href="{{ route('scaais.create') }}" class="btn btn-lg btn-block btn-primary btn-h1-spacing">New SCAAI</a>
         </div>
         <hr>
