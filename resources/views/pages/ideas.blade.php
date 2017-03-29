@@ -4,6 +4,6 @@
 
 @section('content')
 
-{{ route('collection.index') }}
+{!! route('collection.index') !!}
 
 @endsection
