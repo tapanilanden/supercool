@@ -9,7 +9,7 @@ use App\Http\Requests;
 use App\Scaai;
 use Session;
 use Illuminate\Support\Facades\Auth;
-use User;
+use App\User;
 
 class ScaaisController extends Controller
 {
