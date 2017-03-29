@@ -16,28 +16,21 @@
         <hr>
     </div>
     
+    @foreach ($scaais as $scaai)
     <div class="row">
-        <div class="col-md-12">
-        
-            
-                
-                    @foreach ($scaais as $scaai)
-                        
-                       
-                            <a href="{{ route('scaais.show', $scaai->id) }}" >
-                        #{{ $scaai->id }} 
-                        {{ $scaai->title }} 
-                        {{ substr($scaai->body, 0, 50) }}{{ strlen($scaai->body) > 50 ? "..." : "" }} 
-                            </a>
-                        <hr>    
-                       
-                    @endforeach
-               
-        
-            <div class="text-center">
-                {!! $scaais->links(); !!}
-            </div>
+        <div class="col-md-12">                
+            <a href="{{ route('scaais.show', $scaai->id) }}" >
+                #{{ $scaai->id }} 
+                 {{ $scaai->title }} 
+                 {{ substr($scaai->body, 0, 50) }}{{ strlen($scaai->body) > 50 ? "..." : "" }} 
+            </a>   
         </div>
+    </div>
+    @endforeach
     
-    <div>
+    <div class="text-center">
+        {!! $scaais->links(); !!}
+    </div>
+    
+    
 @stop
