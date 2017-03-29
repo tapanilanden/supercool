@@ -4,6 +4,6 @@
 
 @section('content')
 
-@include('scaais_collection.index')
+@include('{{ route('collection.index') }}')
 
 @endsection
