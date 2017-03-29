@@ -7,8 +7,10 @@
             <a href="{{ route('collection.show', $scaai->id) }}" >
                 <h3>{{ $scaai->title }} </h3>
                  <p>{{ substr($scaai->body, 0, 100) }}{{ strlen($scaai->body) > 100 ? "..." : "" }} </p>
-                 <p><small>from super cool and awesome</small> <strong>{{ $users->find($scaai->user_id)->name }}</strong></p>
-            </a>   
+                 
+            </a>
+            <p><small>from super cool and awesome</small> <strong>{{ $users->find($scaai->user_id)->name }}</strong></p>
+               
         </div>
     </div>
     @endforeach
