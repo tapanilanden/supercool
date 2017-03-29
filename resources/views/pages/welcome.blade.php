@@ -53,7 +53,7 @@
             <h1>Newest SCAAI</h1>
             <p>
             <div class="post">
-                <h3>{{ $scaai[1]->title }}</h3>
+                <h3>dsd</h3>
                 
                 <p><i>from:</i> <b>{{ $user->name }}</b></p>
                 
