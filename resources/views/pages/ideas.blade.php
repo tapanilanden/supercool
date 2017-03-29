@@ -4,5 +4,6 @@
 
 @section('content')
 
+@include('scaais_collection.index')
 
 @endsection

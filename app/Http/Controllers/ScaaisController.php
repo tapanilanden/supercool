@@ -22,7 +22,6 @@ class ScaaisController extends Controller
     public function index()
     {
         $scaais = Scaai::where('user_id', '=', Auth::user()->id)->orderBy('id', 'desc')->paginate(5);
-        //$scaais = Scaai::orderBy('id', 'desc')->where()->paginate(5); WANHA
 
         return view('scaais.index')->withScaais($scaais);
         
