@@ -4,11 +4,6 @@
 
 @section('content')
 
-    @if(Auth::check())
-        <p>LOGGED IN</p>
-    @else
-        <p>NOOT</p>
-    @endif
     
     <!-- ROW -->
     <div class="row">
@@ -16,6 +11,21 @@
 
             <div class="col-md-8">
                 <div class="jumbotron">
+                
+                <!-- AUTENTIKOITU -->
+                @if(Auth::check())
+                    <h1>HOWDY {{ Auth::user()->name }}!</h1>
+                    <p class="text-justify">
+                    What would You like to do?
+                    </p>
+                    <a href="{{ route('pages.ideas') }}" class="btn btn-primary btn-block">Browse SCAAIs</a>
+                    
+                    <a href="{{ route('scaais.create') }}" class="btn btn-primary btn-block">Create New SCAAI</a>
+                    
+                    <a href="#" class="btn btn-primary btn-block">Check Your Profile</a>
+                
+                @else
+                <!-- EI AUTENKTIKOITU -->
                     <h1>WELCOME TO SCAAPFSCAAI!</h1>
                     <p class="text-justify">
                     This is a platform for <em>innovative</em> and <em>awesome</em> people with <em>mind-boggling</em>
@@ -25,6 +35,7 @@
                     <a href="{{ route('login') }}" class="btn btn-primary btn-block">Logging in</a>
                     <p class="text-center">or</p>
                     <a href="{{ route('register') }}" class="btn btn-primary btn-block">Create New Account</a>
+                @endif
                 </div>
             
     
