@@ -19,3 +19,7 @@ Route::get('/', ['as' => 'pages.welcome', 'uses' => 'PagesController@getIndex'])
 Route::resource('scaais', 'ScaaisController');
 
 
+
+Route::auth();
+
+Route::get('/home', 'HomeController@index');
