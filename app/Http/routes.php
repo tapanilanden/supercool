@@ -20,7 +20,7 @@ Route::get('auth/logout', ['as' => 'logout', 'uses' => 'Auth\AuthController@getL
 Route::get('auth/register', ['as'=>'register', 'uses' => 'Auth\AuthController@getRegister']);
 Route::post('auth/register', 'Auth\AuthController@postRegister');
 
-Route::get('scaais_collection/index', ['as' => 'collection.index', 'uses' => 'ScaaiCollectionController@getIndex'])
+Route::get('scaais_collection/index', ['as' => 'collection.index', 'uses' => 'ScaaiCollectionController@getIndex']);
 Route::get('scaais_collection/show', ['as' => 'collection.show', 'uses' => 'ScaaiCollectionController@getShow']);
 
 Route::get('users', ['as' => 'pages.users', 'uses' => 'PagesController@getUsers']);
