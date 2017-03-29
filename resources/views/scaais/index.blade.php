@@ -31,13 +31,14 @@
                 <tbody>
                 
                     @foreach ($scaais as $scaai)
-                        <a href="{{ route('scaais.show', $scaai->id) }}" class="btn btn-default btn-sm">
+                        
                         <tr>
+                            <a href="{{ route('scaais.show', $scaai->id) }}" class="btn btn-default btn-sm">
                             <th> {{ $scaai->id }} </th>
                             <td> {{ $scaai->title }} </td>
                             <td> {{ substr($scaai->body, 0, 50) }}{{ strlen($scaai->body) > 50 ? "..." : "" }} </td>
-                            
-                        </tr> </a>    
+                            </a>    
+                        </tr> 
                     @endforeach
                 </tbody>  
             </table>
