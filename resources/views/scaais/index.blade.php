@@ -28,7 +28,8 @@
                         #{{ $scaai->id }} 
                         {{ $scaai->title }} 
                         {{ substr($scaai->body, 0, 50) }}{{ strlen($scaai->body) > 50 ? "..." : "" }} 
-                            </a>    
+                            </a>
+                        <hr>    
                        
                     @endforeach
                
