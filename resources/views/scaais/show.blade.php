@@ -15,7 +15,7 @@
             
                 <dl class="dl-horizontal">
                     <dt>Created by:</dt>
-                    <dd>{{ $scaai->user_id }}</dd>
+                    <dd>{{ User::find($scaai->user_id)->name }}</dd>
                 </dl>
                 
                 <dl class="dl-horizontal">
