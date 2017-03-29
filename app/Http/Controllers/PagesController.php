@@ -16,11 +16,4 @@ class PagesController extends Controller
         return view('pages.about');
     }
     
-    public function getIdeas() {
-        return view('pages.ideas');
-    }
-    
-    public function getUsers() {
-        return view('pages.users');
-    }
 }
