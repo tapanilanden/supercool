@@ -10,7 +10,7 @@ use App\Scaii;
 
 class ScaaiCollectionController extends Controller
 {
-     public function index()
+     public function getIndex()
     {
         $scaais = Scaai::orderBy('id', 'desc')->paginate(5);
 
@@ -18,7 +18,7 @@ class ScaaiCollectionController extends Controller
         
     }
     
-     public function show($id)
+     public function getShow($id)
     {
         $scaai = Scaai::find($id);
         $user = User::find($scaai->user_id);
