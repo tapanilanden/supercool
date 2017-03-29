@@ -21,15 +21,13 @@
     
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
-    <!-- @if (Auth::check())
+            @if(Auth::check())
             
             @else
-            
-            @endif
-            -->
-            <a href="#" class="btn btn-primary btn-block">Login</a>
-            <p class="text-center"><b>or</b></p>
-            <a href="#" class="btn btn-primary btn-block">Register</a>
+                <a href="#" class="btn btn-primary btn-block">Login</a>
+                <p class="text-center"><b>or</b></p>
+                <a href="#" class="btn btn-primary btn-block">Register</a>
+             @endif
        </div>
     </div>
 @endsection

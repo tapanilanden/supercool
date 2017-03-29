@@ -18,7 +18,6 @@
           <ul class="nav navbar-nav">
             <li class="active"><a href="{{ route('pages.welcome') }}">Home </a></li>
             <li class="active"><a href="{{ route('collection.index') }}">SCAAIs</a></li>
-            <li class="active"><a href="#">Users</a></li>
             <li class="active"><a href="{{ route('pages.about') }}">WTF is SCAAPFSCAAI?</a></li> 
           </ul>
             
