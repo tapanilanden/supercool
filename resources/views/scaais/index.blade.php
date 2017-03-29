@@ -9,7 +9,7 @@
     
     @foreach ($scaais as $scaai)
     <div class="row">
-        <div class="col-md-2 col-md-offset-10">                
+        <div class="col-md-8 col-md-offset-2">                
             <a href="{{ route('scaais.show', $scaai->id) }}" >
                 #{{ $scaai->id }} 
                  {{ $scaai->title }} 
