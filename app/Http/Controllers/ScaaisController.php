@@ -11,6 +11,12 @@ use Session;
 
 class ScaaisController extends Controller
 {
+
+    public function __construct() {
+        $this->middleware('auth');
+    }
+    
+    
     public function index()
     {
         $scaais = Scaai::orderBy('id', 'desc')->paginate(5);
