@@ -4,7 +4,7 @@
     @foreach ($scaais as $scaai)
     <div class="row well-sm">
         <div class="col-md-8 col-md-offset-2">                
-            <a href="{{ route('scaais.show', $scaai->id) }}" >
+            <a href="{{ route('collection.show', $scaai->id) }}" >
                 <h3>#{{ $scaai->id }}
                 {{ $scaai->title }} </h3>
                  <p>{{ substr($scaai->body, 0, 100) }}{{ strlen($scaai->body) > 100 ? "..." : "" }} </p>

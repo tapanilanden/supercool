@@ -14,11 +14,11 @@
                 
                 <!-- AUTENTIKOITU -->
                 @if(Auth::check())
-                    <h1>HOWDY {{ Auth::user()->name }}!</h1>
+                    <h1>Howdy {{ Auth::user()->name }}!</h1>
                     <p class="text-justify">
                     What would You like to do?
                     </p>
-                    <a href="{{ route('pages.ideas') }}" class="btn btn-primary btn-block">Browse SCAAIs</a>
+                    <a href="{{ route('collection.index') }}" class="btn btn-primary btn-block">Browse SCAAIs</a>
                     
                     <a href="{{ route('scaais.create') }}" class="btn btn-primary btn-block">Create New SCAAI</a>
                     
@@ -26,7 +26,7 @@
                 
                 @else
                 <!-- EI AUTENKTIKOITU -->
-                    <h1>WELCOME TO SCAAPFSCAAI!</h1>
+                    <h1>Welcome to SCAAPFSCAAI!</h1>
                     <p class="text-justify">
                     This is a platform for <em>innovative</em> and <em>awesome</em> people with <em>mind-boggling</em>
                     ideas to share their visions with other <em>super cool</em> human beings!
