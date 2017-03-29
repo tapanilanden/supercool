@@ -31,7 +31,6 @@
               <ul class="dropdown-menu">
                 <li><a href="#"></a></li>
                 <li><a href="{{ route('scaais.index') }}">My SCAAIs</a></li>
-                <li><a href="#">My Profile</a></li>
                 <li role="separator" class="divider"></li>
                 <li><a href="{{ route('logout') }}">Logout</a></li>
               </ul>
