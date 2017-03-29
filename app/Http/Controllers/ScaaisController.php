@@ -49,7 +49,6 @@ class ScaaisController extends Controller
         
         $this->validate($request, array(
             'title' =>'required|max:255',
-            'user_id' => 'required|integer|max:1000000',
             'body'  => 'required' 
             )); 
         
@@ -58,7 +57,7 @@ class ScaaisController extends Controller
         $scaai = new Scaai;
         
         $scaai->title = $request->title;
-        $scaai->user_id = $request->user_id;
+        $scaai->user_id = Auth::user()->id;
         $scaai->body = $request->body;
         
         $scaai->save();
@@ -110,7 +109,6 @@ class ScaaisController extends Controller
         
             $this->validate($request, array(
                 'title' =>'required|max:256',
-                'user_id' => 'required|integer|max:1000000',
                 'body'  => 'required'
             )); 
         
@@ -118,7 +116,7 @@ class ScaaisController extends Controller
         //save
         $scaai = Scaai::find($id);
         $scaai->title = $request->input('title');
-        $scaai->user_id = $request->input('user_id');
+        $scaai->user_id = Auth::user()->id;
         $scaai->body = $request->input('body');
         
         $scaai->save();
