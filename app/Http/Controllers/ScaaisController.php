@@ -80,7 +80,7 @@ class ScaaisController extends Controller
     public function show($id)
     {
         $scaai = Scaai::find($id);
-        $user = User::find($scaai->id);
+        $user = User::find($scaai->user_id);
         return view('scaais.show')->withScaai($scaai)->withUser($scaai);
     }
 
