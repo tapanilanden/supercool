@@ -53,7 +53,7 @@
             <h1>Newest SCAAI</h1>
             <p>
             <div class="post">
-                <h3>dsd</h3>
+                <h3>{{ $scaai->title }}</h3>
                 
                 <p><i>from:</i> <b>0dssf</b></p>
                 
