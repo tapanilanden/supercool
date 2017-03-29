@@ -12,9 +12,9 @@
             {{ Form::label('title', 'Title: ') }}
             {{ Form::text('title', null, ['class' => 'form-control']) }}
             
-            <!-- TÄMÄ PITÄÄ MUUTTAA / user_id -->
+            <!-- TÄMÄ PITÄÄ MUUTTAA / user_id 
             {{ Form::label('user_id', 'User ID:') }}
-            {{ Form::number('user_id', null, ['class' => 'form-control']) }}
+            {{ Form::number('user_id', null, ['class' => 'form-control']) }}-->
             
             <!-- BODY -->
             {{ Form::label('body', 'Your SCAAI:') }}

@@ -8,8 +8,8 @@
             {{ Form::label('title', 'Title:') }}
             {{ Form::text('title', null, ['class' => 'form-control input-lg']) }}
             
-            {{ Form::label('user_id','User ID:', ['class', 'form-spacing-top']) }}
-            {{ Form::text('user_id', 'null', ['class' => 'form-control']) }}
+            <!--{{ Form::label('user_id','User ID:', ['class', 'form-spacing-top']) }}
+            {{ Form::text('user_id', 'null', ['class' => 'form-control']) }}-->
             
             {{ Form::label('body', 'Body:', ['class' => 'form-spacing-top']) }}
             {{ Form::textarea('body', null, ['class' => 'form-control']) }}
