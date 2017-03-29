@@ -4,6 +4,6 @@
 
 @section('content')
 
-@include('{{ route('collection.index') }}')
+{{ route('collection.index') }}
 
 @endsection
