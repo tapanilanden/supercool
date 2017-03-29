@@ -12,7 +12,9 @@ class AddStarsToUsers extends Migration
      */
     public function up()
     {
-        //
+        Schema::table('users', function($table) {
+            $table->integer('u_stars')->nullable();
+        });
     }
 
     /**
@@ -22,6 +24,8 @@ class AddStarsToUsers extends Migration
      */
     public function down()
     {
-        //
+        Schema::table('users', function($table) {
+           $table->dropColumn('u_stars'); 
+        }); 
     }
 }
