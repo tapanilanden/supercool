@@ -8,6 +8,7 @@ use App\Http\Requests;
 
 use App\Scaai;
 use Session;
+use App\Http\Controllers\Auth;
 
 class ScaaisController extends Controller
 {
