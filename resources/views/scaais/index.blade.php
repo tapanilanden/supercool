@@ -19,29 +19,19 @@
     <div class="row">
         <div class="col-md-12">
         
-            <table class="table">
             
-                <thead>
-                    <th>#</th>
-                    <th>Title</th>
-                    <th>Body</th>
-                    
-                </thead>
-                
-                <tbody>
                 
                     @foreach ($scaais as $scaai)
                         
-                        <tr>
+                       
                             <a href="{{ route('scaais.show', $scaai->id) }}" class="btn btn-default btn-sm">
-                            <th> {{ $scaai->id }} </th>
-                            <td> {{ $scaai->title }} </td>
-                            <td> {{ substr($scaai->body, 0, 50) }}{{ strlen($scaai->body) > 50 ? "..." : "" }} </td>
+                        #{{ $scaai->id }} 
+                        {{ $scaai->title }} 
+                        <!--{{ substr($scaai->body, 0, 50) }}{{ strlen($scaai->body) > 50 ? "..." : "" }}--> 
                             </a>    
-                        </tr> 
+                       
                     @endforeach
-                </tbody>  
-            </table>
+               
         
             <div class="text-center">
                 {!! $scaais->links(); !!}
