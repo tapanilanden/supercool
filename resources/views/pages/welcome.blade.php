@@ -4,7 +4,11 @@
 
 @section('content')
 
-
+    @if(Auth::check())
+        <p>LOGGED IN</p>
+    @else
+        <p>NOOT</p>
+    @endif
     
     <!-- ROW -->
     <div class="row">
