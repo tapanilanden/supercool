@@ -55,7 +55,7 @@
             <div class="post">
                 <h3>dsd</h3>
                 
-                <p><i>from:</i> <b>{{ $user->name }}</b></p>
+                <p><i>from:</i> <b>0dssf</b></p>
                 
                 <p> {{ substr($scaai->body, 0, 100) }}{{ strlen($scaai->body) > 100 ? "..." : "" }} </p>
                 <a href="{{ route('collection.show', $scaai->id) }}" class="btn btn-primary">Read more</a>
