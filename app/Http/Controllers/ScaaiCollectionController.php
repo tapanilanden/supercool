@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 
-use App\Scaii;
+use App\Scaai;
 
 class ScaaiCollectionController extends Controller
 {
