@@ -24,10 +24,10 @@
                     @foreach ($scaais as $scaai)
                         
                        
-                            <a href="{{ route('scaais.show', $scaai->id) }}" class="btn btn-default btn-sm">
+                            <a href="{{ route('scaais.show', $scaai->id) }}" >
                         #{{ $scaai->id }} 
                         {{ $scaai->title }} 
-                        <!--{{ substr($scaai->body, 0, 50) }}{{ strlen($scaai->body) > 50 ? "..." : "" }}--> 
+                        {{ substr($scaai->body, 0, 50) }}{{ strlen($scaai->body) > 50 ? "..." : "" }} 
                             </a>    
                        
                     @endforeach
