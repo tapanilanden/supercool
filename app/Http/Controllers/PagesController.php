@@ -11,7 +11,7 @@ use App\User;
 class PagesController extends Controller
 {
     public function getIndex() {
-        $scaai = Scaai::all()->first();
+        $scaai = Scaai::all()->last();
         $user = User::find($scaai->user_id);
         return view('pages.welcome')->withScaai($scaai)->withUser($user);
     }
