@@ -31,15 +31,23 @@
                 
                 <div class="row">
                     <div class="col-sm-6">
-                        {!! Html::linkRoute('scaais.edit', 'Edit', array($scaai->id), 
-                            array('class' => 'btn btn-primary btn-block')) !!}                        
+                    <!-- TÄMÄ VAIN ADMINILLE JA TEKIJÄLLE -->
+                        
+                        @if (Auth::user()->id == $scaai->user_id)
+                            {!! Html::linkRoute('scaais.edit', 'Edit', array($scaai->id), 
+                            array('class' => 'btn btn-primary btn-block')) !!}  
+                        @endif              
                     </div>
                     <div class="col-sm-6">
-                        {!! Form::open(['route' => ['scaais.destroy', $scaai->id], 'method' => 'delete']) !!}  
+                        @if (Auth::check())
+                            @if (Auth::user()->id == $scaai->user_id)
+                                {!! Form::open(['route' => ['scaais.destroy', $scaai->id], 'method' => 'delete']) !!}  
                         
-                        {!! Form::submit('Delete', ['class' => 'btn btn-danger btn-block']) !!}
+                                {!! Form::submit('Delete', ['class' => 'btn btn-danger btn-block']) !!}
                         
-                        {!! Form::close() !!}
+                                {!! Form::close() !!}
+                            @endif
+                        @endif
                     </div>
                 </div>
             </div>
