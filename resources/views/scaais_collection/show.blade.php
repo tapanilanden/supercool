@@ -59,7 +59,7 @@
         <div class ="col-md-8 col-md-offset-2" id ="comment-form">
             {{ Form::open(['route' => ['comments.store', $scaai->id], 'method' => 'POST']) }}
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-8 col-md-offset-2">
                         {{ Form::label('comment', 'Comment:') }}
                         {{ Form::textarea('comment', null, ['class' => 'form-control']) }}
                         
