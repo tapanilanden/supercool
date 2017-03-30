@@ -23,7 +23,7 @@ Route::post('auth/register', 'Auth\AuthController@postRegister');
 Route::get('scaais_collection/index', ['as' => 'collection.index', 'uses' => 'ScaaiCollectionController@getIndex']);
 Route::get('scaais_collection/show/{id}', ['as' => 'collection.show', 'uses' => 'ScaaiCollectionController@getShow']);
 
-
+Route::post('comments/{id}', ['as' => 'comments.store', 'uses' => 'CommentsController@store']);
 
 Route::get('about', ['as' => 'pages.about', 'uses' => 'PagesController@getAbout']);
 Route::get('/', ['as' => 'pages.welcome', 'uses' => 'PagesController@getIndex']);

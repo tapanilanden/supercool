@@ -54,5 +54,21 @@
             </div>
         </div>
     </div>
+    
+    <div class ="row">
+        <div class ="col-md-8 col-md-offset-2" id ="comment-form">
+            {{ Form::open(['route' => ['comments.store', $scaai->id], 'method' => 'POST']) }}
+                <div class="row">
+                    <div class="col-md-6">
+                        {{ Form::label('comment', 'Comment:') }}
+                        {{ Form::textarea('comment', null, ['class' => 'form-control']) }}
+                        
+                        {{ Form::submit('Add Comment', ['class' => 'btn btn-success btn-block']) }}
+                    </div>
+                </div>
+            
+            {{ Form::close() }}
+        </div>
+    </div>
 
 @endsection
