@@ -56,7 +56,7 @@
     </div>
     
     <div class ="row">
-        <div class ="col-md-8 col-md-offset-2" id ="comment-form">
+        <div class ="col-md-8 col-md-offset-2" ">
             {{ Form::open(['route' => ['comments.store', $scaai->id], 'method' => 'POST']) }}
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
