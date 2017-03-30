@@ -56,14 +56,14 @@
     </div>
     
     <div class ="row">
-        <div class ="col-md-8 col-md-offset-2" ">
+        <div class ="col-md-8 col-md-offset-2">
             {{ Form::open(['route' => ['comments.store', $scaai->id], 'method' => 'POST']) }}
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
                         {{ Form::label('comment', 'Comment:') }}
                         {{ Form::textarea('comment', null, ['class' => 'form-control']) }}
                         
-                        {{ Form::submit('Add Comment', ['class' => 'btn btn-success btn-block']) }}
+                        {{ Form::submit('Add Comment', ['class' => 'btn btn-success btn-block', 'rows' => '2']) }}
                     </div>
                 </div>
             
