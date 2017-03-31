@@ -28,6 +28,6 @@ Route::group(['middleware' => 'web'], function() {
     Route::get('about', ['as' => 'pages.about', 'uses' => 'PagesController@getAbout']);
     Route::get('/', ['as' => 'pages.welcome', 'uses' => 'PagesController@getIndex']);
     Route::resource('scaais', 'ScaaisController');
-)};
+};
 
 
