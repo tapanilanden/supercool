@@ -97,7 +97,7 @@ class ScaaisController extends Controller
             return view('scaais.edit')->withScaai($scaai);
         }
         else {
-            return view('scaais.show')->withScaai($scaai);
+            return view('scaais.show')->withScaai($scaai)->withUser($user);
         }
     }
 
