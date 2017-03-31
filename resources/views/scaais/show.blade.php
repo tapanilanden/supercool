@@ -39,15 +39,15 @@
                         @endif              
                     </div>
                     <div class="col-sm-6">
-                       <!-- @if (Auth::check())
-                            @if (Auth::user()->id == $scaai->user_id) -->
+                        @if (Auth::check())
+                            @if (Auth::user()->id == $scaai->user_id)
                                 {!! Form::open(['route' => ['scaais.destroy', $scaai->id], 'method' => 'delete']) !!}  
                         
                                 {!! Form::submit('Delete', ['class' => 'btn btn-danger btn-block']) !!}
                         
                                 {!! Form::close() !!}
-                           <!-- @endif
-                        @endif-->
+                             @endif
+                        @endif                       
                     </div>
                 </div>
             </div>
