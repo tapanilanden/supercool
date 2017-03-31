@@ -93,7 +93,12 @@ class ScaaisController extends Controller
     {
         $scaai = Scaai::find($id);
         
-        return view('scaais.edit')->withScaai($scaai);
+        if(Auth::user()->id === $scaai->user_id) {
+            return view('scaais.edit')->withScaai($scaai);
+        }
+        else {
+            return view('pages.welcome');
+        }
     }
 
     /**

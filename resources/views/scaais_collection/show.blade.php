@@ -31,7 +31,7 @@
                 
                 <div class="row">
                     <div class="col-sm-6">
-                    <!-- TÄMÄ VAIN ADMINILLE JA TEKIJÄLLE -->
+                    
                         @if (Auth::check())
                             @if (Auth::user()->id == $scaai->user_id)
                                 {!! Html::linkRoute('scaais.edit', 'Edit', array($scaai->id), 
@@ -55,7 +55,7 @@
         </div>
     </div>
     
-    <div class ="row">
+    <!--<div class ="row">
         <div class ="col-md-8 col-md-offset-2">
             {{ Form::open(['route' => ['comments.store', $scaai->id], 'method' => 'POST']) }}
                 <div class="row">
@@ -69,6 +69,6 @@
             
             {{ Form::close() }}
         </div>
-    </div>
+    </div>-->
 
 @endsection
