@@ -6,12 +6,11 @@
             
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
-            <h1>What is </h1>
+            <h1>What is</h1>
             <p>
             SCAAPFSCAAI is a platform where You can share your awesome ideas with our
-            other super cool and awesome users! You can also give and gain feedback 
-            to/from other people with our super awesome and cool rating system! So register yourself 
-            and start sharing your SCAAI's!
+            other super cool and awesome users! So register yourself RIGHT NOW
+            and start sharing your Super Cool and Awesome SCAAI's!
             </p>
             
             
