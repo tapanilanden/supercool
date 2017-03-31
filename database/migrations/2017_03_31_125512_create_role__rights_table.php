@@ -13,8 +13,10 @@ class CreateRoleRightsTable extends Migration
     public function up()
     {
         Schema::create('role__rights', function (Blueprint $table) {
-            $table->increments('id');
+            $table->integer('role_id');
+            $table->integer('right_id');
             $table->timestamps();
+            $table->primary('role_id','user_id');
         });
     }
 
