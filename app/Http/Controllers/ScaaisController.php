@@ -97,7 +97,7 @@ class ScaaisController extends Controller
             return view('scaais.edit')->withScaai($scaai);
         }
         else {
-            return view('pages.welcome');
+            return view('scaais.show')->withScaai($scaai);
         }
     }
 
